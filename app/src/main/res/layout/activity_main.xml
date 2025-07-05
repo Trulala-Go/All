@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:orientation="vertical">
+
+    <LinearLayout
+         android:layout_height="40dp"
+         android:layout_width="match_parent"
+         android:background="#555555"
+         android:gravity="center_vertical">
+
+        <TextView
+             android:layout_height="35dp"
+             android:layout_width="35dp"
+             android:layout_marginEnd="50dp"
+             android:background="#ff0000"
+             android:gravity="center"
+             android:id="@+id/keluar"
+             android:text="X" />
+
+        <ImageView
+             android:layout_height="35dp"
+             android:layout_width="35dp"
+             android:layout_marginEnd="100dp"
+             android:id="@+id/ijin" />
+
+        <Switch
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:background="#000000"
+             android:padding="5dp"
+             android:textColor="#ffffff"
+             android:id="@+id/home"
+             android:text="HOME" />
+
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_height="match_parent"
+         android:layout_width="match_parent"
+         android:layout_margin="10dp">
+
+        <ScrollView
+             android:layout_height="match_parent"
+             android:layout_width="match_parent">
+
+            <GridLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:layout_gravity="center_horizontal"
+                 android:columnCount="3">
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:gravity="center"
+                     android:layout_margin="5dp"
+                     android:orientation="vertical"
+                     android:id="@+id/berkas">
+
+                    <ImageView
+                         android:layout_height="40dp"
+                         android:layout_width="40dp"
+                         android:src="@drawable/folder"
+                         android:layout_margin="5dp" />
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="80dp"
+                         android:background="#ffffff"
+                         android:gravity="center"
+                         android:layout_margin="5dp"
+                         android:textColor="#000000"
+                         android:text="BERKAS" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:gravity="center"
+                     android:layout_margin="5dp"
+                     android:orientation="vertical"
+                     android:id="@+id/musik">
+
+                    <ImageView
+                         android:layout_height="40dp"
+                         android:layout_width="40dp"
+                         android:src="@drawable/musik"
+                         android:layout_margin="5dp" />
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="80dp"
+                         android:background="#ffffff"
+                         android:gravity="center"
+                         android:layout_margin="5dp"
+                         android:textColor="#000000"
+                         android:text="MUSIK" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:gravity="center"
+                     android:layout_margin="5dp"
+                     android:orientation="vertical"
+                     android:id="@+id/video">
+
+                    <ImageView
+                         android:layout_height="40dp"
+                         android:layout_width="40dp"
+                         android:src="@drawable/video"
+                         android:layout_margin="5dp" />
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="80dp"
+                         android:background="#ffffff"
+                         android:gravity="center"
+                         android:layout_margin="5dp"
+                         android:textColor="#000000"
+                         android:text="VIDEO" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:gravity="center"
+                     android:layout_margin="5dp"
+                     android:orientation="vertical"
+                     android:id="@+id/gambar">
+
+                    <ImageView
+                         android:layout_height="40dp"
+                         android:layout_width="40dp"
+                         android:src="@drawable/gambar"
+                         android:layout_margin="5dp" />
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="80dp"
+                         android:background="#ffffff"
+                         android:gravity="center"
+                         android:layout_margin="5dp"
+                         android:textColor="#000000"
+                         android:text="GAMBAR" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:gravity="center"
+                     android:layout_margin="5dp"
+                     android:orientation="vertical"
+                     android:id="@+id/editor">
+
+                    <ImageView
+                         android:layout_height="40dp"
+                         android:layout_width="40dp"
+                         android:src="@drawable/editor"
+                         android:layout_margin="5dp" />
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="80dp"
+                         android:background="#ffffff"
+                         android:gravity="center"
+                         android:layout_margin="5dp"
+                         android:textColor="#000000"
+                         android:text="EDITOR" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:gravity="center"
+                     android:layout_margin="5dp"
+                     android:orientation="vertical"
+                     android:id="@+id/browser">
+
+                    <ImageView
+                         android:layout_height="40dp"
+                         android:layout_width="40dp"
+                         android:src="@drawable/browser"
+                         android:layout_margin="5dp" />
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="80dp"
+                         android:background="#ffffff"
+                         android:gravity="center"
+                         android:layout_margin="5dp"
+                         android:textColor="#000000"
+                         android:text="BROWSER" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:gravity="center"
+                     android:layout_margin="5dp"
+                     android:orientation="vertical"
+                     android:id="@+id/terminal">
+
+                    <ImageView
+                         android:layout_height="40dp"
+                         android:layout_width="40dp"
+                         android:src="@drawable/terminal"
+                         android:layout_margin="5dp" />
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="80dp"
+                         android:background="#ffffff"
+                         android:gravity="center"
+                         android:layout_margin="5dp"
+                         android:textColor="#000000"
+                         android:text="TERMINAL" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:gravity="center"
+                     android:layout_margin="5dp"
+                     android:orientation="vertical"
+                     android:id="@+id/otg">
+
+                    <ImageView
+                         android:layout_height="40dp"
+                         android:layout_width="40dp"
+                         android:src="@drawable/usb"
+                         android:layout_margin="5dp" />
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="80dp"
+                         android:background="#ffffff"
+                         android:gravity="center"
+                         android:layout_margin="5dp"
+                         android:textColor="#000000"
+                         android:text="USB DRIVER" />
+
+                </LinearLayout>
+
+            </GridLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>
